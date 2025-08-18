@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for fileflight in MERN",
+  "license": "ISC",
+  "author": "Rohan Dhiman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.17.1",
+    "multer": "^2.0.2",
+    "uuid": "^11.1.0"
+  }
+}
